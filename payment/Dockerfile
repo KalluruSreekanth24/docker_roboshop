@@ -1,4 +1,4 @@
-FROM python3
+FROM python:3.9
 WORKDIR /opt/server
 EXPOSE 8080
 COPY payment.in .
